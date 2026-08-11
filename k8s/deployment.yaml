@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: fastapi-app
-          image: zree7/fastapi-app:7
+          image: zree7/fastapi-app:8
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
